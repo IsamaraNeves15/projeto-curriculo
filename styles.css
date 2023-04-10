@@ -1,0 +1,83 @@
+/*No body foi usado como valor o esquema de cores do tipo hexadecimal
+font-family é o tipo de fonte*/
+body {
+    background-color: #cdb4db;
+    font-family: 'Alkatra', cursive;
+}
+
+/*No h1 foi usado como valor o esquema de cores do tipo rgb
+Também foi usado a font-weight que deixa a fonte mais gordinha, e font-size 
+que altera o tamanho*/
+h1 {
+    color: rgb(172, 95, 182);
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: uppercase;
+  
+}
+
+/*No h2 e h3 foi usado como valor o esquema de cores do tipo nominal*/
+h2 {
+    color:blueviolet;
+    text-align: center;
+    font-size: 20px;
+}
+h3 {
+    color: purple;
+    text-align:center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/*Na linha 29 nós temos uma id identificada pela #
+*/
+#imagem_perfil {
+    width: 15%;
+    border-radius: 25% 25%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*Na linha 36 nós temos uma class identificada pelo .
+*/
+.minibio {
+    text-align: center;
+    color: purple;
+    line-height: 2;   
+}
+
+.lista {
+    width: 15%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.colunas {
+    border: 1 px;
+    border-style: solid;
+    border-color: rgb(118, 71, 149);
+    padding: 4px;
+    text-align: center;
+}
+
+.logo {
+    width: 20px;
+}
+
+.mae {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.filha {
+justify-content: space-around;
+width: 30%;
+text-align: center;
+}
